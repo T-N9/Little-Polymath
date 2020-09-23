@@ -1,0 +1,86 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#0abcc2), color-stop(#1eaacb), to(#4ca2cd));
+  background: linear-gradient(to right, #0abcc2, #1eaacb, #4ca2cd);
+}
+
+#main {
+  color: black;
+  background: #e5edf2;
+  margin: 6% 20% 0% 20%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#que_cq {
+  -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+          box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+  background: linear-gradient(318.32deg, rgba(163, 177, 198, 0.1) 0%, rgba(163, 177, 198, 0.1) 55%, rgba(163, 177, 198, 0.25) 100%);
+  border-radius: 5px;
+}
+
+#que_cq #cate_plc {
+  font-size: 23px;
+  padding-top: 2%;
+  margin: 0% 0 0 2%;
+}
+
+#que_cq #ques_plc {
+  font-size: 18px;
+  margin: 2% 0 0 2%;
+}
+
+#in_sec {
+  margin: 0.4% 2% 1% 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn_spc #btn1:focus, #btn_spc #btn2:focus, #btn_spc #btn3:focus, #btn_spc #btn4:focus {
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 2px 0px #DFE4EA inset, -2px -2px 2px 0px #ffffff inset;
+          box-shadow: 2px 2px 2px 0px #DFE4EA inset, -2px -2px 2px 0px #ffffff inset;
+}
+
+#btn_spc #btn1:hover, #btn_spc #btn2:hover, #btn_spc #btn3:hover, #btn_spc #btn4:hover {
+  cursor: pointer;
+}
+
+#btn_spc #btn1, #btn_spc #btn2, #btn_spc #btn3, #btn_spc #btn4 {
+  outline: none;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+          box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  color: #1eaacb;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 35%;
+  position: relative;
+  height: 45px;
+  width: 25%;
+}
+
+#btn_spc #btn4 {
+  margin-bottom: 3%;
+}
+
+#que {
+  display: inline;
+}
+
+#cate_plc {
+  color: #0082c8;
+}
+
+#suff_num {
+  display: none;
+}
+
+#tbl, tr, td, th {
+  border: 2px solid black;
+}
+
+#countdown {
+  float: right;
+}
+/*# sourceMappingURL=main.css.map */
