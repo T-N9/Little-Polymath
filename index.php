@@ -8,10 +8,10 @@ session_start();
 <?php
     $_SESSION['myArray']=array();
     for ($i=1; $i<=11; $i++) {
-        $num[$i] = mt_rand(1,29);
+        $num[$i] = mt_rand(1,38);
         for ($j=1; $j<$i; $j++) {             
             while ($num[$j] == $num[$i]){               
-                $num[$i] = mt_rand(1,29);               
+                $num[$i] = mt_rand(1,38);               
                 $j = 1;             
             }           
         } 
